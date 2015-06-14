@@ -14,9 +14,9 @@
 		61013BD01B2D41890092E87A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61013BCE1B2D41890092E87A /* LaunchScreen.xib */; };
 		61013BDC1B2D41890092E87A /* ClapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61013BDB1B2D41890092E87A /* ClapTests.swift */; };
 		61013BE61B2D41C10092E87A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61013BE51B2D41C10092E87A /* AVFoundation.framework */; };
-		61013BEA1B2D42020092E87A /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 61013BE71B2D42020092E87A /* clap-button.png */; };
-		61013BEB1B2D42020092E87A /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61013BE81B2D42020092E87A /* clap.wav */; };
-		61013BEC1B2D42020092E87A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 61013BE91B2D42020092E87A /* icon.png */; };
+		617468401B2D5A6D0037902E /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6174683D1B2D5A6D0037902E /* clap-button.png */; };
+		617468411B2D5A6D0037902E /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6174683E1B2D5A6D0037902E /* clap.wav */; };
+		617468421B2D5A6D0037902E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6174683F1B2D5A6D0037902E /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,9 @@
 		61013BDA1B2D41890092E87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61013BDB1B2D41890092E87A /* ClapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapTests.swift; sourceTree = "<group>"; };
 		61013BE51B2D41C10092E87A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		61013BE71B2D42020092E87A /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clap-button.png"; path = "../../3_clap/clap-button.png"; sourceTree = "<group>"; };
-		61013BE81B2D42020092E87A /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = ../../3_clap/clap.wav; sourceTree = "<group>"; };
-		61013BE91B2D42020092E87A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../3_clap/icon.png; sourceTree = "<group>"; };
+		6174683D1B2D5A6D0037902E /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		6174683E1B2D5A6D0037902E /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		6174683F1B2D5A6D0037902E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 		61013BC21B2D41890092E87A /* Clap */ = {
 			isa = PBXGroup;
 			children = (
-				61013BE71B2D42020092E87A /* clap-button.png */,
-				61013BE81B2D42020092E87A /* clap.wav */,
-				61013BE91B2D42020092E87A /* icon.png */,
+				6174683D1B2D5A6D0037902E /* clap-button.png */,
+				6174683E1B2D5A6D0037902E /* clap.wav */,
+				6174683F1B2D5A6D0037902E /* icon.png */,
 				61013BC51B2D41890092E87A /* AppDelegate.swift */,
 				61013BC71B2D41890092E87A /* ViewController.swift */,
 				61013BC91B2D41890092E87A /* Main.storyboard */,
@@ -205,12 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61013BEB1B2D42020092E87A /* clap.wav in Resources */,
+				617468411B2D5A6D0037902E /* clap.wav in Resources */,
 				61013BCB1B2D41890092E87A /* Main.storyboard in Resources */,
-				61013BEC1B2D42020092E87A /* icon.png in Resources */,
+				617468421B2D5A6D0037902E /* icon.png in Resources */,
 				61013BD01B2D41890092E87A /* LaunchScreen.xib in Resources */,
 				61013BCD1B2D41890092E87A /* Images.xcassets in Resources */,
-				61013BEA1B2D42020092E87A /* clap-button.png in Resources */,
+				617468401B2D5A6D0037902E /* clap-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +425,7 @@
 				61013BE11B2D41890092E87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61013BE21B2D41890092E87A /* Build configuration list for PBXNativeTarget "ClapTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +434,7 @@
 				61013BE41B2D41890092E87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
