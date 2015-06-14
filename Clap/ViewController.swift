@@ -37,6 +37,7 @@ class ViewController: UIViewController ,UIPickerViewDelegate,AVAudioPlayerDelega
     func pickerView(pickerView: UIPickerView!, titleForRow row: Int, forComponent component: Int) -> String!{return "\(row+1)回"}
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {soundCount = row
     }
+    
     @IBAction func playButton(){
         audioPlayer.numberOfLoops = soundCount
         audioPlayer.play()
